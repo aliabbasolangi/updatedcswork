@@ -1,0 +1,110 @@
+.title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  display: flex;
+  position: absolute;
+  color: rgb(100, 205, 237);
+  font-weight: 700;
+  text-decoration: underline;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.banner{
+  background-color: rgb(245, 245, 245);
+  width: 99%;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  margin: 0;
+}
+
+.nav{
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 21px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.nav a:not(:last-child) {
+  margin-right: 10px;
+  color: rgb(100, 205, 237);
+}
+
+
+.maintenance{
+  margin-right: 25px;
+  color: rgb(100, 205, 237);
+  transition: 0.15s;
+}
+
+.analysis{
+  color: rgb(100, 205, 237);
+  transition: 0.15s;
+}
+
+.design{
+  color: rgb(100, 205, 237);
+  transition: 0.15s;
+}
+
+.coding{
+  color: rgb(100, 205, 237);
+  transition: 0.15s;
+}
+
+.testing{
+  color: rgb(100, 205, 237);
+  transition: 0.15s;
+}
+
+.development{
+  color: rgb(237, 100, 100);
+  transition: 0.15s;
+}
+
+.rad{
+  color: rgb(237, 100, 100);
+  transition: 0.15s;
+}
+
+.iterative{
+  color:rgb(237, 100, 100);
+  transition: 0.15s;
+}
+
+.image-cycle{
+  position: absolute;
+  display: flex;
+  right: 90px;
+  top: -40px;
+  width: 550px;
+  margin-top: 125px;
+}
+
+.analysis:hover{
+  opacity: 0.8;
+}
+
+.design:hover{
+  opacity: 0.8;
+}
+
+.coding:hover{
+  opacity: 0.8;
+}
+
+.testing:hover{
+  opacity: 0.8;
+}
+
+.maintenance:hover{
+  opacity: 0.8;
+}
+
+
